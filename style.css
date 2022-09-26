@@ -1,0 +1,37 @@
+body {
+    background-color: lightyellow;
+}
+
+p {border-style: dashed;
+    color: rgb(49, 61, 57);
+    border-color: rgb(51, 65, 37);
+ 
+}
+
+h1 {padding-left: 40px ;}
+
+a {color: crimson;}
+
+.Dzivnieks {border-style: groove;
+border-color:blueviolet}
+
+.redText {color: red;}
+
+#specialButton{background-color: gold;}
+#specialButton1{color: blueviolet;}
+
+div.pilnais{
+    min-height: 100px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+div.kreisais{
+    min-height: 50px;
+    background-color: red;
+}
+
+div.labais{
+    min-height: 50px;
+    background-color: green;}
