@@ -11,10 +11,18 @@
 
 <body>
 
+<button id="poga1">SPIED POGU</button>
+<button id="poga2">SKROLLĒ LEJĀ</button>
+
+
+
     <!-- H1 ir virsraksts, jāliek abi tagi -->
 
 
     <h1>Šis ir virsraksts, heading 1</h1>
+
+
+    <h2 id="heading2">Heading2</h2>
 
     <p class="pirmaisParagrafs"> Paragrāfs 1 Paragrāfs 1 <br>
         Paragrāfs 1 Paragrāfs 1 Paragrāfs 1 <br><br>
@@ -65,9 +73,12 @@
     </ol>
 
 
+
 <button id="specialButton">SPIED MANI!</button>
 <br>
 <button id="specialButton1">SPIED MANI!</button>
+<br><br>
+<button id="poga3">SKROLLĒ AUGŠĀ</button>
 
 
 <div class="pilnais">
@@ -79,5 +90,27 @@
 
 
 </body>
+
+<script>
+    document.getElementById("poga1").onclick=
+    function(){  
+        console.log("Hello world Linda");
+        window.alert("Hello world Linda");
+        document.getElementById("heading2").innerHTML=Date()
+    }
+
+    document.getElementById("poga2").onclick=
+    function() {
+       window.scrollTo(0,10000);
+    }
+
+    document.getElementById("poga3").onclick=
+    function() {
+       window.scrollTo(0,0);
+    }
+
+
+</script>
+
 
 </html>
